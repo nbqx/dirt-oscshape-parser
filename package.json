@@ -1,0 +1,22 @@
+{
+  "name": "dirt-oscshape-parser",
+  "description": "dirt oscshape parser",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/dirt-oscshape-parser.git"
+  },
+  "homepage": "https://github.com/nbqx/dirt-oscshape-parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-osc": "^0.3.0",
+    "tap-colorize": "^1.2.0",
+    "tape": "^3.0.0"
+  }
+}

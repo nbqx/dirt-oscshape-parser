@@ -1,0 +1,8 @@
+cps 1
+
+-- dirt :: OscShape
+d1 <- stream "127.0.0.1" 12345 dirt
+
+d1 $ sound "1 [2 3] 4 [~ 5 ~ 5]"
+
+d1 silence
